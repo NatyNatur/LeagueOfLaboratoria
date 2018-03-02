@@ -35,7 +35,7 @@
             authDomain: "exampleproyect-37d8c.firebaseapp.com",
             databaseURL: "https://exampleproyect-37d8c.firebaseio.com",
             projectId: "exampleproyect-37d8c",
-            storageBucket: "",
+            storageBucket: "exampleproyect-37d8c.appspot.com",
             messagingSenderId: "619363123971"
         };
         firebase.initializeApp(config);
@@ -46,7 +46,7 @@
     <h1>League of Laboratoria</h1>
     <input type="button" onclick="facebookLogin()" value="Login con Facebook">
     <div id="champions"></div>
-
+    <input id="upload-file-selector" type="file" accept="image/x-png, image/gif, image/jpeg" onchange="uploadFile()">
     <script src="assets/app.js"></script>
 </body>
 
